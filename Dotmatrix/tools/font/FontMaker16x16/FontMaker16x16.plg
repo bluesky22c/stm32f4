@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FontMaker16x16 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/FontMaker16x16.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP59.tmp" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP5A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/FontMaker16x16.pdb" /debug /machine:I386 /out:"Debug/FontMaker16x16.exe" /pdbtype:sept 
+.\Debug\FontMaker16x16.obj
+.\Debug\FontMaker16x16Dlg.obj
+.\Debug\StdAfx.obj
+.\Debug\FontMaker16x16.res
+]
+Creating command line "link.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP5A.tmp"
+<h3>Output Window</h3>
+Compiling...
+FontMaker16x16Dlg.cpp
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(89) : error C2059: syntax error : '&&'
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(89) : error C2143: syntax error : missing ';' before '}'
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(89) : error C2143: syntax error : missing ';' before '}'
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(90) : error C2143: syntax error : missing ';' before '{'
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(90) : error C2447: missing function header (old-style formal list?)
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(90) : error C2143: syntax error : missing ';' before ','
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(91) : error C2143: syntax error : missing ';' before '{'
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(91) : error C2447: missing function header (old-style formal list?)
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(91) : error C2143: syntax error : missing ';' before ','
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(92) : error C2143: syntax error : missing ';' before '{'
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(92) : error C2447: missing function header (old-style formal list?)
+\\tsclient\D\stm32\Project\DotMatrix_20111222\font\FontMaker16x16\FontMaker16x16Dlg.cpp(92) : error C2143: syntax error : missing ';' before '}'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+FontMaker16x16.exe - 12 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

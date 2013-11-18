@@ -1,0 +1,3 @@
+---- GPIO_Speed_50MHz Matches (2 in 1 files) ----
+Stm32f10x_gpio.h (d:\stm32\project\fwlib\inc):  GPIO_Speed_50MHz
+Stm32f10x_gpio.h (d:\stm32\project\fwlib\inc):                              ((SPEED) == GPIO_Speed_50MHz))

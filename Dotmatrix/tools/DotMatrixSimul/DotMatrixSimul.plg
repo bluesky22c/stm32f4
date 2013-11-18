@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DotMatrixSimul - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/DotMatrixSimul.res" /d "_DEBUG" /d "_AFXDLL" "\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\DotMatrixSimul.rc"" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/DotMatrixSimul.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\AutomataKR.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\DotMatrixSimul.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\DotMatrixSimulDlg.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\GridCtrl\GridCell.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\GridCtrl\GridCellBase.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\GridCtrl\GridCtrl.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\GridCtrl\GridDropTarget.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\GridCtrl\InPlaceEdit.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\Key_proc_handler.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\Matrix_proc.cpp"
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\GridCtrl\TitleTip.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF4.tmp" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/DotMatrixSimul.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF5.tmp" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DotMatrixSimul.pdb" /debug /machine:I386 /out:"Debug/DotMatrixSimul.exe" /pdbtype:sept 
+.\Debug\AutomataKR.obj
+.\Debug\DotMatrixSimul.obj
+.\Debug\DotMatrixSimulDlg.obj
+.\Debug\GridCell.obj
+.\Debug\GridCellBase.obj
+.\Debug\GridCtrl.obj
+.\Debug\GridDropTarget.obj
+.\Debug\InPlaceEdit.obj
+.\Debug\Key_proc_handler.obj
+.\Debug\Matrix_proc.obj
+.\Debug\StdAfx.obj
+.\Debug\TitleTip.obj
+.\Debug\DotMatrixSimul.res
+]
+Creating command line "link.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AutomataKR.cpp
+DotMatrixSimul.cpp
+DotMatrixSimulDlg.cpp
+GridCell.cpp
+GridCellBase.cpp
+GridCtrl.cpp
+GridDropTarget.cpp
+InPlaceEdit.cpp
+Key_proc_handler.cpp
+Matrix_proc.cpp
+\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\Matrix_proc.cpp(53) : warning C4005: 'CLR_NONE' : macro redefinition
+        c:\program files\microsoft sdk\include\commctrl.h(477) : see previous definition of 'CLR_NONE'
+\\tsclient\D\stm32\Project\DotMatrix_20120116\DotMatrixSimul\Matrix_proc.cpp(315) : warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+TitleTip.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF8.tmp" with contents
+[
+/nologo /o"Debug/DotMatrixSimul.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\AutomataKR.sbr
+.\Debug\DotMatrixSimul.sbr
+.\Debug\DotMatrixSimulDlg.sbr
+.\Debug\GridCell.sbr
+.\Debug\GridCellBase.sbr
+.\Debug\GridCtrl.sbr
+.\Debug\GridDropTarget.sbr
+.\Debug\InPlaceEdit.sbr
+.\Debug\Key_proc_handler.sbr
+.\Debug\Matrix_proc.sbr
+.\Debug\TitleTip.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSPF8.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DotMatrixSimul.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
